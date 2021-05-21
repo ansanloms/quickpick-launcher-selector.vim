@@ -8,6 +8,8 @@
 Plug 'prabirshrestha/quickpick.vim'
 Plug 'ansanloms/quickpick-launcher.vim'
 Plug 'ansanloms/quickpick-launcher-selector.vim'
+
+command! -bang PLauncherSelector call quickpick#pickers#launcher#selector#open("<bang>")
 ```
 
 ## Configuration
